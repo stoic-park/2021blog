@@ -30,7 +30,7 @@ module.exports = {
   ],
   author: {
     name: "Lama",
-    photo: "/라마.ico",
+    photo: "/라마.png",
     bio: "개인적인 생각들을 담는 공간입니다",
     contacts: {
       email: "demige79@gmail.com",
