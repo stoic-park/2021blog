@@ -7,8 +7,8 @@ module.exports = {
   subtitle: "라마 일기장.",
   copyright: "© All rights reserved.",
   disqusShortname: "lama",
-  postsPerPage: 4,
-  googleAnalyticsId: "",
+  postsPerPage: 6,
+  googleAnalyticsId: "G-QGYMHXTVE3",
   useKatex: false,
   menu: [
     {
