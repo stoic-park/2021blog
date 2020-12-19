@@ -1,50 +1,54 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
+  url: "https://lumen.netlify.com",
+  pathPrefix: "/",
+  title: "Lama Diary",
+  subtitle: "라마 일기장.",
+  copyright: "© All rights reserved.",
+  disqusShortname: "lama",
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: "",
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
-      path: '/'
+      label: "Posts",
+      path: "/",
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: "About me",
+      path: "/pages/about",
     },
+    // {
+    //   label: "Contact me",
+    //   path: "/pages/contacts",
+    // },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
+      label: "Tags",
+      path: "/tags",
+    },
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: "Lama",
+    photo: "/라마.ico",
+    bio: "개인적인 생각들을 담는 공간입니다",
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: '',
-      soundcloud: '',
-      medium: '',
-    }
-  }
+      email: "demige79@gmail.com",
+      facebook: "",
+      telegram: "",
+      twitter: "",
+      github: "/stoic-park",
+      rss: "",
+      vkontakte: "",
+      linkedin: "",
+      instagram: "",
+      line: "",
+      gitlab: "",
+      weibo: "",
+      codepen: "",
+      youtube: "",
+      soundcloud: "",
+      medium: "lamaground",
+    },
+  },
 };
